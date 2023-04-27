@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/*
+    em HTML é id    = CSS é #
+    em HTML é class = CSS é .
+*/
+
+body{
+    
+    background-color: rgb(61, 58, 63);
+    font-family: 'Oswald', sans-serif;
+}
+
+main {
+    width:700px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.623);
+    padding: 10px;
+    border-radius: 7px;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 9px;
+}
+
+#html {
+    background-color:rgb(72, 188, 255);
+    border-radius: 9px;
+    padding: 5px;
+    width: 180px;
+}
+
+#css{
+    background-color:rgb(247, 199, 68);
+    border-radius: 9px;
+    padding: 5px;
+    width: 180px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 40px;
+    font-weight: 400;
+}
+
+.basico {
+    color: rgb(0, 128, 17);
+
+}
+
+.intermediario {
+    color: yellow;
+}
+
+.avançado {
+    color: red;
+}

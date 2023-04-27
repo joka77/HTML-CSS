@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+    h1{ /*block-level*/
+        background-color: aqua;
+        height: 300px;
+        width: 300px;
+
+        border: 10px outset rgb(21, 92, 133); /*Width Style Color */
+
+        padding: 10px; /*Um único valor para todos os lados */
+
+        margin: 20px auto 40px auto; /*Top Right Bottom Left*/
+
+        /*Para centralizar uma caixa utilizamos a tag: Margin: auto; ou só auto*/
+
+        outline: 10px groove yellowgreen;
+    }
+    a{ /*inline-block*/
+        border: 7px outset rgb(21, 92, 133);
+
+        outline: 10px groove yellowgreen;
+       
+    }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+        <p>Parágrafos também são caixas no estilo box-level, porem os <a href="#">links</a> são do estilo inline-level.</p>
+</body>
+</html>
